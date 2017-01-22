@@ -112,7 +112,7 @@ button, input[type="submit"]{
 	display: block;
 	color: #088ca5;
 	font-size: 30px;
-	margin-bottom: 33px;
+	margin-bottom: 20px;
 }
 .text-item-wrap{
 	max-width: 860px;
@@ -126,5 +126,6 @@ button, input[type="submit"]{
 .text-item p{
 	margin: 0 32px 43px 0;
 	line-height: 2em;
+	font-size: 15px;
 }
 /*MAIN END*/

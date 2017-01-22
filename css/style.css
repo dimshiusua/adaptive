@@ -101,6 +101,30 @@ button, input[type="submit"]{
 	background: #bc3184;
 }
 .inner-text{
+	min-height: 560px;
+}
+.inner-text, .text-item{
 	background-color: #ebebeb;
+	font-family: Montserrat;
+	color: #515151;
+}
+.text-item-wrap a{
+	display: block;
+	color: #088ca5;
+	font-size: 30px;
+	margin-bottom: 33px;
+}
+.text-item-wrap{
+	max-width: 860px;
+	margin: 0 auto;
+	padding-top: 55px;
+}
+.text-item{
+	float: left;
+	width: 50%;
+}
+.text-item p{
+	margin: 0 32px 43px 0;
+	line-height: 2em;
 }
 /*MAIN END*/

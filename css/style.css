@@ -21,7 +21,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 ul {
 	margin: 0;
@@ -49,7 +49,33 @@ button, input[type="submit"]{
 }
 /*HEADER START*/
 .header{
-	height: 97px;
+	height: 99px;
 	background: #373c3f;
+	font-family: Montserrat;
+	font-size: 15px;
 }
+.header a{
+	color: #ffffff;
+}
+.logo{
+	float: left;
+	margin: 45px 0 0 56px;
+	font-weight: bold;
+}
+
+.header-nav{
+	float: left;
+	margin: 45px 0 0 19px;
+}
+.header-nav li{
+	display: inline-block;
+	margin: 0 11px;
+}
+
 /*HEADER END*/
+/*MAIN START*/
+.inner-block{
+	height: 577px;
+	background-color: #16b1c4;
+}
+/*MAIN END*/

@@ -100,4 +100,7 @@ button, input[type="submit"]{
 	height: 219px;
 	background: #bc3184;
 }
+.inner-text{
+	background-color: #ebebeb;
+}
 /*MAIN END*/

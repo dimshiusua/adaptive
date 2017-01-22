@@ -79,4 +79,25 @@ button, input[type="submit"]{
 	height: 577px;
 	background-color: #16b1c4;
 }
+.img-raw{
+	overflow: hidden;
+}
+.img-block{
+	float: left;
+}
+.img-block img{
+	width: 100%;
+}
+.img-block.w70{
+	width: 70%;
+}
+.img-block.w30{
+	width: 33.333333%;
+}
+.link{
+	float: left;
+	width: 30%;
+	height: 219px;
+	background: #bc3184;
+}
 /*MAIN END*/

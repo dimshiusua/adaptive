@@ -7,7 +7,7 @@ body {
 	margin: 0 auto;
 	color: #000;
 	background: #fff;
-	font: 12px/1 arial, helvetica, sans-serif;
+	font: 12px/1 Montserrat, arial, helvetica, sans-serif;
 }
 /* General reset */
 h1,h2,h3,h4,h5,h6,p{
@@ -52,7 +52,6 @@ button, input[type="submit"]{
 .header{
 	height: 99px;
 	background: #373c3f;
-	font-family: Montserrat;
 	font-size: 15px;
 }
 .header a{
@@ -75,10 +74,7 @@ button, input[type="submit"]{
 
 /*HEADER END*/
 /*MAIN START*/
-.inner-block{
-	height: 577px;
-	background-color: #16b1c4;
-}
+
 .img-raw{
 	overflow: hidden;
 }
@@ -89,43 +85,79 @@ button, input[type="submit"]{
 	width: 100%;
 }
 .img-block.w70{
-	width: 70%;
+	width: 78%;
 }
 .img-block.w30{
 	width: 33.333333%;
 }
 .link{
 	float: left;
-	width: 30%;
-	height: 219px;
+	width: 22%;
+	height: 244px;
 	background: #bc3184;
+}
+.inner-block{
+	height: 577px;
+	background-color: #16b1c4;
+}
+.inner-block-wrap{
+	display: inline-block;
+	max-width: 725px;
+	margin: 25% 0 0 9%;
+	transform: translateY(-50%)
+}
+.inner-block span{
+	display: inline-block;
+	color: white;
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+.inner-block a{
+    color: #a6d5df;
+    font-size: 33px;
+	position: relative;
+}
+.inner-block-arrow::before,.inner-block-arrow::after{
+	content: '';
+	display: inline-block;
+	width: 22px;
+	height: 2px;
+	background: white;
+	position: absolute;
+}
+.inner-block-arrow::before{
+	top: 0;
+	left: 0;
+}
+.inner-block-arrow::after{
+	bottom: 0;
+	left: 0;
 }
 .inner-text{
 	min-height: 560px;
 }
-.inner-text, .text-item{
+.text-wrap{
 	background-color: #ebebeb;
-	font-family: Montserrat;
-	color: #515151;
-}
-.text-item-wrap a{
-	display: block;
-	color: #088ca5;
-	font-size: 30px;
-	margin-bottom: 20px;
+	min-height: 554px;
+	font-size: 14px;
 }
 .text-item-wrap{
 	max-width: 860px;
 	margin: 0 auto;
 	padding-top: 55px;
 }
+.text-item-wrap a{
+	display: block;
+	font-size: 30px;
+	color: #088ca5;
+	margin-bottom: 18px;
+}
 .text-item{
 	float: left;
 	width: 50%;
 }
 .text-item p{
-	margin: 0 32px 43px 0;
+	margin: 0 32px 18px 0;
 	line-height: 2em;
-	font-size: 15px;
 }
 /*MAIN END*/

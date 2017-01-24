@@ -77,7 +77,6 @@ button, input[type="submit"]{
 
 .img-raw{
 	overflow: hidden;
-	background: #bc3184;
 	width: 100%;
 }
 .img-block{
@@ -95,6 +94,23 @@ button, input[type="submit"]{
 .link{
 	float: left;
 	width: 22%;
+	position: relative;
+	height: 244px;
+	background: #bc3184;
+}
+.link a::after{
+	content: '';
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	border: 7px solid white;
+	border-radius: 5px;
+	border-left: none;
+	border-bottom: none;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 39%;
+	top: 42%;
 }
 .inner-block{
 	height: 577px;
